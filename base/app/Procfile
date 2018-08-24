@@ -1,2 +1,2 @@
 pgpool: pgpool -n
-ranchergen: rancher-gen --config "/app/rancher-gen.conf" --log-level "$RAP_DEBUG"
+ranchergen: rancher-gen --config "/app/conf/runtime.conf"
